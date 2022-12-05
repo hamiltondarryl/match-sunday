@@ -1,0 +1,40 @@
+:root {
+    --background-page : #0B162C;
+    --background-page2 : #3B556D;
+    --color-title : #CFDBD5;
+    --color-title2 : #5FC2BA;
+}
+
+body{
+    background-color: var(--background-page);
+}
+.title{
+    color: var(--color-title);
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+.terrain, .date{
+    font-size: 0.9em!important;
+    font-weight: bold;
+}
+.title-terrain, .title-date{
+    color: var(--color-title2);
+}
+.vs{
+    padding: 15px;
+    background-color: var(--color-title2);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+}
+#equipe1, #equipe2{
+    font-size: 1.1em;
+    color: var(--background-page);
+    text-align: center!important;
+} 
+#heure{
+    color: #e99a90;
+    font-weight: bold;
+}
