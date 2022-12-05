@@ -34,7 +34,7 @@ async function fetchMatchs() {
                             <div class="col-2 text-center vs">VS</div>
                             <div class="col-4 " id="equipe2" style="text-align: center;padding : 0px">${fields.adversaireNom}</div>
                         </div>
-                        <p class="text-center mt-3" id="heure">${fields.heure}</p>
+                        <p class="text-center mt-3" id="heure">${ fields.status ==  "false" ?  fields.heure : fields.score}</p>
                     </div>
                 </div>`;
     
