@@ -2,9 +2,9 @@
    "name" : "SUNDAY SWEAT ATHLETIC",
     "short_name" : "SSA",
     "start_url" : ".",
-    "background_color": "#CFDBD5",
+    "background_color": "#fff",
     "display": "standalone",
-    "theme_color": "#CFDBD5",
+    "theme_color": "#fff",
     "icons": [
         {
           "src": "assets/img/logo512x512.png",
